@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalParks 
+<NationalPark 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://kmbush33333.github.io/CSE445A4/NationalParks.xsd">
-  <NationalPark Rating="4.9">
+
+  <!-- Missing required attribute -->
+  <NationalPark>
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
     <Address>
       <Number>8</Number>
       <Street>S Entrance Road</Street>
@@ -16,19 +16,7 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4.8">
-    <Name>Yellowstone</Name>
-    <Phone>307-344-7381</Phone>
-    <Phone>307-344-2117</Phone>
-    <Address NearestAirport="Bozeman">
-      <Number>2</Number>
-      <Street>Yellowstone Avenue</Street>
-      <City>Yellowstone National Park</City>
-      <State>WY</State>
-      <Zip>82190</Zip>
-    </Address>
-  </NationalPark>
-
+  <!-- Missing Phone -->
   <NationalPark>
     <Name>Yosemite</Name>
     <Address NearestAirport="Fresno">
@@ -40,6 +28,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Duplicate Name -->
   <NationalPark Rating="4.7">
     <Name>Zion</Name>
     <Name>Zion Duplicate</Name>
@@ -53,25 +42,4 @@
     </Address>
   </NationalPark>
 
-  <NationalPark>
-    <Name>Rocky Mountain</Name>
-    <Phone>970-586-1206</Phone>
-    <Address NearestAirport="Denver">
-      <Number>1000</Number>
-      <Street>US Highway 36</Street>
-      <City>Estes Park</City>
-      <State>CO</State>
-      <Zip>80517</Zip>
-
-  <NationalPark Rating="4.6">
-    <Name>Olympic</Name>
-    <Phone>360-565-3130</Phone>
-    <Address NearestAirport="Seattle">
-      <Number>3002</Number>
-      <Street>Mount Angeles Road</Street>
-      <City>Port Angeles</City>
-      <State>WA</State>
-      <Zip>98362</Zip>
-    </Address>
-  </NationalPark>
 </NationalPark>
